@@ -1,1 +1,6 @@
-
+Inserire due numeri binari di 32 bit (A e B) da elaborare.
+Scegliere il tipo di operazione impostando il vettore di selezione S (4 bit) e il bit M per decidere se operazioni logiche o aritmetiche.
+Impostare il bit di carry in (Cn) se necessario.
+Premere il pulsante di clock per avanzare la simulazione e ottenere il risultato.
+Il simulatore fornisce il risultato dell’operazione in un registro a 32 bit e segnala i flag (carry out, zero, overflow) per verificare il risultato.
+Per azzerare i registri e riavviare la simulazione, usare il comando reset.
