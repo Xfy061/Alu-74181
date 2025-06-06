@@ -1,1 +1,21 @@
+NOT(a): restituisce il valore negato di a
 
+AND(a, b): restituisce la congiunzione logica di a e b
+
+OR(a, b): restituisce la disgiunzione logica di a e b
+
+XOR(a, b): restituisce l’operazione XOR tra a e b
+
+ALU74181(A[4], B[4], S[4], M, Cn): esegue operazioni aritmetiche o logiche a 4 bit basate sul chip 74181, restituendo risultato e carry
+
+PIPO74198(D[8], CLK, RESET): registro a 8 bit con ingresso/uscita parallela, controllato da clock e reset
+
+ALU32(A[32], B[32], S[4], M, Cn): combina più ALU74181 a 4 bit per realizzare una ALU a 32 bit
+
+binary_to_decimal(binary[32]): converte un numero binario a 32 bit in decimale
+
+reset_register(reg[8]): azzera un registro a 8 bit
+
+print_register(reg[8]): stampa il valore binario del registro a 8 bit
+
+main(): punto d’ingresso del programma, inizializza e chiama i moduli per simulare il funzionamento
