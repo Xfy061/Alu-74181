@@ -1,1 +1,11 @@
+BUG RISOLTI
+Comprensione iniziale del funzionamento dell’ALU 74181 e dei registri 74198.
+Guardando lo schema logicomandato sul gruppo. In seguito abbiamo fatto la funzione per ogni porta logica così da richiamarle ogni volta nello sviluppo del codice.
 
+Comprensione del codice del registro.
+Invece per il registro abbiamo provato facendo prima il codice di un unico flip-flop, poi ne abbiamo fatti 8 di fila per fare un registro che memorizza le 8 variabili.
+
+BUG NON RISOLTI
+la possibilità di leggere i dati di input da file sorgente e scrivere i risultati in un file di output, per mancanza di tempo e di una conoscenza approfondita delle funzioni di I/O in C
+
+I vari codici dell’ALU non sono sincronizzati dal clock, perché non sapevamo come farlo
